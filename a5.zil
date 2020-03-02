@@ -45,40 +45,40 @@
 <DEFINE-SEGMENT RECORD <>>
 <DEFINE-SEGMENT HINTS <>>
 
-<INSERT-FILE "DEFS">		;"redefinitions"
-<XFLOAD "~INTERLOGIC/ZILLIB/PARSER/PARSER.SHOGUN">	;"new parser"
+<INSERT-FILE "defs">		;"redefinitions"
+<INSERT-FILE "parser.shogun">	;"new parser"
 
 ;"game substrate"
 
-<INSERT-FILE "PICDEF">		;"picture constants"
-<INSERT-FILE "MISC">
-<INSERT-FILE "~INTERLOGIC/ZILLIB/SOFT">	;"function key stuff"
-<INSERT-FILE "~INTERLOGIC/ZILLIB/MENU">	;"menu stuff"
-<INSERT-FILE "STATUS">	;"status line"
-<INSERT-FILE "PIC">		;"picture stuff"
-<INSERT-FILE "DESC">		;"describers"
-<INSERT-FILE "SYNTAX">
-<INSERT-FILE "RECORD">
-<INSERT-FILE "VERBS">
-<INSERT-FILE "~INTERLOGIC/ZILLIB/PARSER/PRARE">
-<INSERT-FILE "QVERBS">
-<INSERT-FILE "GLOBALS">
+<INSERT-FILE "picdef">		;"picture constants"
+<INSERT-FILE "misc">
+<INSERT-FILE "soft">	;"function key stuff"
+<INSERT-FILE "menu">	;"menu stuff"
+<INSERT-FILE "status">	;"status line"
+<INSERT-FILE "pic">		;"picture stuff"
+<INSERT-FILE "desc">		;"describers"
+<INSERT-FILE "syntax">
+<INSERT-FILE "record">
+<INSERT-FILE "verbs">
+<INSERT-FILE "prare">
+<INSERT-FILE "qverbs">
+<INSERT-FILE "globals">
 
 ;"game files"
 
-<INSERT-FILE "CAST">	;"characters"
-<INSERT-FILE "ERASMUS">	;"arrival in japan"
-<INSERT-FILE "ANJIRO">	;"arrival at village"
-<INSERT-FILE "VOYAGE">	;"voyage to osaka/saving rodrigues"
-<INSERT-FILE "AUDIENCE"> ;"audience with toranaga"
-<INSERT-FILE "OSAKA">	;"escape from osaka"
-<INSERT-FILE "MAZE">	;"maze of alleys in osaka"
-<INSERT-FILE "QUAKE">	;"earthquake"
-<INSERT-FILE "MARIKO">	;"framing story"
-<INSERT-FILE "ATTACK">	;"ninja attack on castle"
+<INSERT-FILE "cast">	;"characters"
+<INSERT-FILE "erasmus">	;"arrival in japan"
+<INSERT-FILE "anjiro">	;"arrival at village"
+<INSERT-FILE "voyage">	;"voyage to osaka/saving rodrigues"
+<INSERT-FILE "audience"> ;"audience with toranaga"
+<INSERT-FILE "osaka">	;"escape from osaka"
+<INSERT-FILE "maze">	;"maze of alleys in osaka"
+<INSERT-FILE "quake">	;"earthquake"
+<INSERT-FILE "mariko">	;"framing story"
+<INSERT-FILE "attack">	;"ninja attack on castle"
 
-<XFLOAD "~INTERLOGIC/ZILLIB/CLUES.XFLOAD">
-<INSERT-FILE "HINTS">
+<INSERT-FILE "clues">
+<INSERT-FILE "hints">
 
 <PROPDEF SIZE 5>
 <PROPDEF CAPACITY 0>

@@ -6,7 +6,7 @@
 
 <BEGIN-SEGMENT 0>
 
-<INCLUDE "PDEFS">
+<INCLUDE "pdefs">
 
 "global objects and associated routines"
 
