@@ -1031,7 +1031,7 @@ be included when the crunch comes."
 <COND (<GASSIGNED? ZILCH>
        <DEFMAC ZLINES ('VAR:<PRIMTYPE ATOM> "ARGS" LINES:LIST
 		       "AUX" (CNT:FIX 0) SETTER:ATOM
-		       (DELAYS:<OR FALSE LIST> <>))
+		       (DELAYS:<OR FALSE LIST> <>) (REDEFINE T))
 	       <COND (<TYPE? .VAR ATOM>
 		      <EVAL <FORM GLOBAL .VAR 0>>
 		      <SET SETTER <CHTYPE .VAR GVAL>>)
